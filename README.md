@@ -1,3 +1,18 @@
+# Assignment-5
+
+**Team Members**
+|   Enrollment No.  |   Name   | GithubId |
+|   --------------  |   ----   | -------- |
+|    IIT2019192  |   Pritik Shrivastava | pritik24 |
+|    IIT2019193  |   Chetan Patidar | chetann26 | 
+|    IIT2019194  |   Rahul Roy | Rahul171201  |
+
+**Group No-**"3"
+
+**Mentor Name-** "Md. Meraz"
+
+---
+
 # GoldMineProblem
 A simple dp problem based on optimization
 
@@ -25,6 +40,58 @@ overlapping sub problems.
 cannot move right_down and when we reach last column the recursive function ends.
 * If we reach any cell from where the maximum amount of gold has already been calculated ie. dp[i][j] is not equal to -1 then we return the value in dp[i][j].
 * We run the following function for every cell in the first column. At last, we find the maximum of all rows and first column and return it as our answer.
+
+
+# How to use project
+```
+Download project: git clone https://github.com/Rahul171201/GoldMineProblem.git
+Project initialize: cd GoldMineProblem
+
+Run Code:
+g++ solution.cpp
+
+
+Follow the previous steps by entering: ./a.out
+
+```
+
+Input(Randomly Generated in code)
+```
+First line of input contains two space seperated integers N and M.
+Next N lines have M positive integers
+```
+
+Output
+```
+Max amount of gold that can be mined from the gold mine.
+```
+---
+
+
+**Test case**
+
+Test Case-1
+```
+Input(Randomly Generated in code):
+4  10
+28 88 13 62
+76 12 62 64
+26 87 58 14
+80 55 48 65
+36 19 58 36
+1 22 48 60
+37 4 51 47
+42 48 73 81
+50 2 18 32
+28 6 43 10
+
+Output:
+293
+```
+
+
+---
+
 
 # Algorithmic Analysis
 * Time Complexity :

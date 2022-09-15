@@ -1,4 +1,4 @@
-# Assignment-5
+# Gold Mine Problem
 
 **Team Members**
 |   Enrollment No.  |   Name   | GithubId |
